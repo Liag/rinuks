@@ -1,0 +1,10 @@
+[Unit]
+Description=Runs listpackages.service every hour
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=1h
+Unit=listpackages.service
+
+[Install]
+WantedBy=timers.target
