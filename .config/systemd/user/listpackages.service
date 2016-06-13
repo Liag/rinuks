@@ -1,0 +1,7 @@
+[Unit]
+Description=List current native and foreign packages in text files
+
+[Service]
+Type=simple
+ExecStart=/home/v/bin/listpackages.sh
+

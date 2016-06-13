@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 updates=$(checkupdates)
-n=$(echo "$updates" | wc -l)
+n=$(echo "$updates" | sed '/^\s*$/d' | wc -l)
 if [ "$n" != "0" ]; then
     if [ "$n" -gt "1" ]
     then
