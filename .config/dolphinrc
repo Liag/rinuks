@@ -1,1 +1,72 @@
-/home/v/.config/dolphinrc
+Height 1080=715
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAACh/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABEAAAChwAAAFABAAADAAAAAQAAAAAAAAAA/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAAD/////AAAACgEAAAMAAAADAAAEcQAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAEcQAAAAoBAAADAAADuAAAAocAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 1920=1137
+
+[AdditionalInfoDialog]
+Height 1080=294
+Width 1920=300
+
+[CompactMode]
+FontWeight=50
+
+[Desktop Entry]
+DefaultProfile=Profile #1.profile
+
+[DetailsMode]
+FontWeight=50
+
+[Favorite Profiles]
+Favorites=
+
+[FileDialogSize]
+Height 1080=480
+Width 1920=640
+
+[General]
+ConfirmClosingMultipleTabs=false
+EditableUrl=true
+Version=200
+ViewPropsTimestamp=2016,5,31,21,58,28
+
+[IconsMode]
+FontWeight=50
+PreviewSize=144
+
+[KFileDialog Settings]
+Recent Files[$e]=file:///run/media/v/Welnos/Anime/,file:///run/media/v/Welnos/Anime/
+Recent URLs[$e]=file:///run/media/v/Welnos/Anime/
+
+[KPropertiesDialog]
+Height 1080=474
+Width 1920=440
+
+[MainWindow]
+Height 1050=804
+Height 1080=804
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAC4AAAC4PwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABEAAAC4AAAAFABAAADAAAAAQAAASsAAALg/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAAEQAAALgAAAACgEAAAMAAAADAAAEcQAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAEcQAAAAoBAAADAAAE/wAAAuAAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1680=1464
+Width 1920=1464
+
+[Open-with settings]
+CompletionMode=5
+History=java,mcomix
+
+[PreviewSettings]
+Plugins=comicbookthumbnail,djvuthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,marble_thumbnail_gpx,pothumbnail,imagethumbnail,jpegthumbnail,marble_thumbnail_kmz,marble_thumbnail_kml,kraorathumbnail,mltpreview,marble_thumbnail_osm,gsthumbnail,rawthumbnail,svgthumbnail,textthumbnail,ffmpegthumbs
+
+[Search]
+ShowFacetsWidget=true
+
+[SettingsDialog]
+Height 1080=460
+Width 1920=512
+
+[VersionControl]
+enabledPlugins=Git
+
+[ViewPropertiesDialog]
+Height 1050=490
+Height 1080=490
+Width 1680=373
+Width 1920=373

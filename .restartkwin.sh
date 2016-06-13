@@ -1,1 +1,3 @@
-/home/v/.restartkwin.sh
+#!/bin/sh
+nohup kwin_x11 --replace > /dev/null 2>&1 &
+
