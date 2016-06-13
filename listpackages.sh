@@ -1,0 +1,1 @@
+/home/v/bin/listpackages.sh

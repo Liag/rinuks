@@ -1,2 +1,2 @@
 # rinuks
-configs and scripts
+configs, scripts and nifty tricks
