@@ -1,1 +1,7 @@
-/home/v/.config/gwenviewrc
+[General]
+SideBarPage=folders
+
+[ImageView]
+AnimationMethod=DocumentView::GLAnimation
+MouseWheelBehavior=MouseWheelBehavior::Browse
+ThumbnailSplitterSizes=767,221

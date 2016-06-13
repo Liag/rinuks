@@ -1,1 +1,5 @@
-/home/v/.restartplasma.sh
+#!/bin/sh
+killall plasmashell
+kstart plasmashell
+
+

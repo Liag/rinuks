@@ -1,1 +1,2 @@
-/home/v/rem.txt
+HDMI-1
+DVI-D-2

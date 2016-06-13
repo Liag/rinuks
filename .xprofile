@@ -1,1 +1,2 @@
-/home/v/.xprofile
+DESKTOP_LOCKED=true
+export DESKTOP_LOCKED
