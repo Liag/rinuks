@@ -7,3 +7,5 @@ date +'%Y-%m-%d %H:%M:%S' > ~/docs/rinuks/pacman_foreign.txt
 echo -e >> ~/docs/rinuks/pacman_foreign.txt
 pacman -Qm >> ~/docs/rinuks/pacman_foreign.txt
 
+cd ~/docs/rinuks
+git commit -am "Automated commit."

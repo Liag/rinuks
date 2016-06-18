@@ -7,10 +7,8 @@
 
 alias ls='ls --group-directories-first --color=auto'
 alias ll='LC_COLLATE=C ls -alF'
-alias update='~/.update.sh'
-alias getip='~/.getip.sh'
-alias sshlog='~/.sshlog.sh'
-PS1="\[\033[38;5;199m\]\u\[$(tput sgr0)\]\[\033[38;5;255m\] @ \[$(tput sgr0)\]\[\033[38;5;36m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]: \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;116m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\\$\[$(tput sgr0)\] "
+alias hathlog='journalctl --user -u hath'
+PS1="\[\033[38;5;199m\]\u\[$(tput sgr0)\]\[\033[38;5;255m\] @ \[$(tput sgr0)\]\[\033[38;5;36m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]: \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;116m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\\$\[$(tput sgr0)\] "
 
 SSH_ENV=$HOME/.ssh/environment
 
@@ -33,3 +31,6 @@ if [ -f "${SSH_ENV}" ]; then
 else
     start_agent;
 fi
+
+#command fortune | cowsay -f rms
+command rmssay
