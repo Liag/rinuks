@@ -33,4 +33,5 @@ else
 fi
 
 #command fortune | cowsay -f rms
-command rmssay
+#rmssay
+#touhourmssay
