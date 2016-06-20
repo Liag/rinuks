@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 date +'%Y-%m-%d %H:%M:%S' > ~/docs/rinuks/pacman_native.txt
 echo -e >> ~/docs/rinuks/pacman_native.txt
 pacman -Qn >> ~/docs/rinuks/pacman_native.txt
