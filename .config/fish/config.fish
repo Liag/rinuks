@@ -19,5 +19,4 @@ function ll --description 'List contents of directory using long format'
         env COLLATE=C ls --group-directories-first --color=auto -alhF $argv
 end
 
-
- 
+start_agent
