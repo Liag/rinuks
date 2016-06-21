@@ -12,7 +12,7 @@ function ls --description 'List contents of directory'
 		if isatty 1
 			set param $param --indicator-style=classify
 		end 
-		command ls $param $argv 
+		command ls --group-directories-first $param $argv 
 end
 
 function ll --description 'List contents of directory using long format'
