@@ -19,4 +19,15 @@ function ll --description 'List contents of directory using long format'
         env COLLATE=C ls --group-directories-first --color=auto -alhF $argv
 end
 
+function gitssh --description 'Add git ssh key'
+	ssh-add ~/.ssh/id_rsa
+end
+
 start_agent
+
+# start X at login
+if status --is-login
+    if test -z "$DISPLAY" -a $XDG_VTNR -eq 1
+        exec startx -- -keeptty
+    end
+end
