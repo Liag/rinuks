@@ -16,7 +16,7 @@ function ls --description 'List contents of directory'
 end
 
 function ll --description 'List contents of directory using long format'
-        env COLLATE=C ls --group-directories-first --color=auto -alhF $argv
+        env LC_COLLATE=C ls --group-directories-first --color=auto -alhF $argv
 end
 
 function gitssh --description 'Add git ssh key'
