@@ -5,6 +5,8 @@ set fish_greeting
 #touhourmssay
 if status --is-login
 	cat ~/prog/rinuks/arch_logo.txt
+#else
+#	start_agent
 end
 
 function ls --description 'List contents of directory'
@@ -23,7 +25,7 @@ function gitssh --description 'Add git ssh key'
 	ssh-add ~/.ssh/id_rsa
 end
 
-start_agent
+#start_agent
 
 # start X at login
 if status --is-login
