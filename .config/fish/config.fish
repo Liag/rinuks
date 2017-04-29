@@ -22,7 +22,7 @@ function ll --description 'List contents of directory using long format'
 end
 
 function gitssh --description 'Add git ssh key'
-	start_agent
+	start_agent_git
 	ssh-add ~/.ssh/id_rsa
 end
 
