@@ -38,9 +38,9 @@ fi
 #xterm -geometry 80x20+494-0 &
 #exec xterm -geometry 80x66+0+0 -name login
 setxkbmap eu
-#xrandr --output "DVI-D-2" --primary --mode 1680x1050 --output "HDMI-1" --right-of "DVI-D-2" --mode 1920x1080
+xrandr --output "DVI-D-2" --primary --mode 1680x1050 --output "HDMI-1" --right-of "DVI-D-2" --mode 1920x1080
 export GTK_IM_MODULE='uim'
 export QT_IM_MODULE='uim'
 uim-xim &
 export XMODIFIERS='@im=uim'
-#exec startkde
+exec startkde
