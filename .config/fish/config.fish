@@ -10,11 +10,11 @@ if status --is-login
 end
 
 function ls --description 'List contents of directory'
-	set -l param --color=auto 
+	set -l param --color=auto
 		if isatty 1
 			set param $param --indicator-style=classify
-		end 
-		command ls --group-directories-first $param $argv 
+		end
+		command ls --group-directories-first $param $argv
 end
 
 function ll --description 'List contents of directory using long format'
@@ -23,7 +23,6 @@ end
 
 function gitssh --description 'Add git ssh key'
 	start_agent_git
-	ssh-add ~/.ssh/id_rsa
 end
 
 #start_agent

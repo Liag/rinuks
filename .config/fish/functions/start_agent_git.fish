@@ -5,7 +5,7 @@
 setenv SSH_ENV $HOME/.ssh/environment
 
 
-function start_agent
+function start_agent_git
 	if [ -n "$SSH_AGENT_PID" ]
     		ps -ef | grep $SSH_AGENT_PID | grep ssh-agent > /dev/null
     		if [ $status -eq 0 ]
@@ -22,7 +22,7 @@ function start_agent
     		echo "Initializing new SSH agent ..."
 	        ssh-agent -c | sed 's/^echo/#echo/' > $SSH_ENV
     		echo "succeeded"
-		chmod 600 $SSH_ENV 
+		chmod 600 $SSH_ENV
 		. $SSH_ENV > /dev/null
     		ssh-add ~/.ssh/id_rsa
 	end
@@ -30,7 +30,7 @@ function start_agent
 end
 
 
-function test_identities                                                                                                                                                                
+function test_identities
     ssh-add -l | grep "The agent has no identities" > /dev/null
     if [ $status -eq 0 ]
         ssh-add ~/.ssh/id_rsa
