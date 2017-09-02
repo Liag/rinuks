@@ -8,6 +8,8 @@
 alias ls='ls --group-directories-first --color=auto'
 alias ll='LC_COLLATE=C ls -alF'
 alias hathlog='journalctl --user -u hath'
+alias pixivutil="python2 /home/v/prog/PixivUtil2/PixivUtil2.py"
+
 PS1="\[\033[38;5;199m\]\u\[$(tput sgr0)\]\[\033[38;5;255m\] @ \[$(tput sgr0)\]\[\033[38;5;36m\]\h\[$(tput sgr0)\]\[\033[38;5;15m\]: \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;116m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]\n\\$\[$(tput sgr0)\] "
 
 #SSH_ENV=$HOME/.ssh/environment
