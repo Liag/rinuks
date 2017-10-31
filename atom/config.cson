@@ -9,5 +9,10 @@
     scrollSensitivity: 80
   "exception-reporting":
     userId: "2a2d8189-ecd2-412d-884a-f27cb08893f8"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
+    textOpacity: 0.4
   welcome:
     showOnStartup: false
