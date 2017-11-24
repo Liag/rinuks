@@ -18,7 +18,7 @@ function ls --description 'List contents of directory'
 end
 
 function ll --description 'List contents of directory using long format'
-        env LC_COLLATE=C ls --group-directories-first --color=auto -alhF $argv
+        env LC_COLLATE=C ls --group-directories-first --color -alhF $argv | awk '{k=0;for(i=0;i<=8;i++)k+=((substr($1,i+2,1)~/[rwx]/)*2^(8-i));if(k)printf("%0o ",k);print}'
 end
 
 function irc --description "connect to server and attach to weechat tmux"
@@ -54,8 +54,9 @@ end
 #start_agent
 
 # start X at login
-if status --is-login
-    if test -z "$DISPLAY" -a $XDG_VTNR -eq 1
-        exec startx -- -keeptty
-    end
-end
+#if status --is-login
+#    if test -z "$DISPLAY" -a $XDG_VTNR -eq 1
+#        exec startx -- -keeptty
+#    end
+#end
+
