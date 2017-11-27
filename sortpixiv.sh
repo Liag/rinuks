@@ -1,6 +1,6 @@
 #!/bin/bash
 basedir="/home/v/p/drawn"
-cd "$basedir/unsorted/tosort"
+cd "/home/v/Downloads/AnkPixiv"
 num=0
 suc=0
 for f in *; do

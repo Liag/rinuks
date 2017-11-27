@@ -31,6 +31,11 @@ function hathlog
 	ssh isa -t hathlog -f
 end
 
+function sshisa
+	start_agent
+	ssh isa
+end
+
 function syns --description "Start synergy server"
 	synergys -f --enable-crypto
 end

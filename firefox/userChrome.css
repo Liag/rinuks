@@ -3,3 +3,23 @@
     visibility: collapse !important;
   }
 }
+
+ .browserContainer {
+background-color: var(--url-and-searchbar-background-color,  hsla(0,0%,100%,.8)) !important;
+}
+
+#sidebar-box {
+	background-color: hsl(240, 7%, 5%) !important;
+}
+
+toolbarbutton[checked="true"]:not([disabled="true"]) {
+	color: inherit !important;
+}
+
+#sidebar-header, .sidebar-splitter {
+	border-color: hsl(240, 3%, 20%) !important;
+}
+
+.sidebar-placesTree {
+	color: #aaa !important;
+}
