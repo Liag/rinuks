@@ -56,6 +56,10 @@ function sortpixiv
 	/home/v/bin/sortpixiv.sh
 end
 
+function smi
+	sudo make install
+end
+
 #start_agent
 
 # start X at login

@@ -1,0 +1,12 @@
+[/home/v/.vaults/sec.enc]
+activities=
+backend=cryfs
+lastStatus=2
+mountPoint=/home/v/Vaults/sec
+name=sec
+
+[EncryptedDevices]
+/home/v/.vaults/sec.enc=true
+
+[UI-notice]
+SkipNotice-cryfs-message=false
