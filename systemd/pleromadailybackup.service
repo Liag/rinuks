@@ -1,0 +1,6 @@
+[Unit]
+Description=Pleroma daily backup
+
+[Service]
+ExecStart=/home/v/bin/pleromadailybackup.sh
+
