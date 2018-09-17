@@ -4,6 +4,7 @@ backend=cryfs
 lastStatus=2
 mountPoint=/home/v/Vaults/sec
 name=sec
+offlineOnly=false
 
 [EncryptedDevices]
 /home/v/.vaults/sec.enc=true
