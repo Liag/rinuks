@@ -1,0 +1,6 @@
+[Unit]
+Description=System daily backup
+
+[Service]
+ExecStart=/home/v/bin/systembackup.sh
+
